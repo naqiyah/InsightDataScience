@@ -9,7 +9,7 @@ Original file is located at
 
 #importing the csv file 
 import csv  
-file =  open('C:\\Users\\naqiy\\Desktop\\Data science\\consumer_complaints-master\\insight_testsuite\\test_1\\input\\complaints.csv', 'r')
+file =  open('complaints.csv', 'r')
 reader = csv.reader(file)
 
 items = []  # put the rows in csv to a list
