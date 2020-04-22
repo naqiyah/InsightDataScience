@@ -9,7 +9,7 @@ Original file is located at
 
 #importing the csv file 
 import csv  
-file =  open('complaints.csv', 'r')
+file =  open('./input/complaints.csv', 'r')
 reader = csv.reader(file)
 
 items = []  # put the rows in csv to a list
@@ -68,7 +68,7 @@ print(mydict)
 
 from collections import Counter,OrderedDict 
 import math
-a_file = open("report.csv", "w")
+a_file = open("./output/report.csv", "w")
 mydict = OrderedDict(sorted(mydict.items())) 
 print(mydict)
 writer = csv.writer(a_file)
